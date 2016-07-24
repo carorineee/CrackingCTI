@@ -44,8 +44,10 @@ public class OneAway {
     }
 
     public static boolean IsAddOrRemove(String longer, String shorter) {
+        int sIndex, lIndex = 0;
+        boolean foundOne = false;
         for(int g = 0; g < shorter.length(); g++){
-            
+
         }
 
     }
