@@ -10,7 +10,7 @@ import java.lang.*;
 import java.io.BufferedReader;
 import java.util.Arrays;
 
-public class Strings {
+public class Strings1And2 {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Enter a string (or 2): ");
