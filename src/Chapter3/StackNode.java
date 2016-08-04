@@ -6,8 +6,8 @@ package Chapter3;
  */
 public class StackNode<T> {
 
-    T data;
-    StackNode<T> next;
+    protected T data;
+    protected StackNode<T> next;
 
     public StackNode(T data) {
         this.data = data;

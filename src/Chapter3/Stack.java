@@ -20,8 +20,8 @@ public class Stack<T> {
         return toPop;
     }
 
-    public void push(T data) {
-        StackNode<T> newNode = new StackNode<T>(data);
+    public void push(T item) {
+        StackNode<T> newNode = new StackNode<T>(item);
         newNode.next = top;
         top = newNode;
     }
