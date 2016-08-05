@@ -18,7 +18,7 @@ public class RemoveDups {
         j.append(3);
         j.print(j.head);
 //        removeDups(j.head);
-        removeDupsNoBuffer(j.head);
+//        removeDupsNoBuffer(j.head);
         System.out.println();
         j.print(j.head);
     }

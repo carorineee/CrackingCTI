@@ -14,7 +14,11 @@ public class KthToLast {
         j.append(5);
         j.append(6);
         j.append(7);
-        System.out.println(Better(j.head, 2));
+        j.print(j.head);
+        System.out.println();
+        Node<Integer> newHead = j.reverse(j.head);
+        j.print(newHead);
+//        System.out.println(Better(j.head, 2));
     }
 
     public static int KToLast(Node head, int k) {

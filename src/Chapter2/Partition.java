@@ -22,12 +22,12 @@ public class Partition {
         Node before = head;
         Node after = head;
 
-        while(head!=null){
-            Node next = head.next;
-            if(){
-
-            }
-        }
+//        while(head!=null){
+//            Node next = head.next;
+//            if(){
+//
+//            }
+//        }
 
         return head;
     }

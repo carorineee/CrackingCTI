@@ -35,6 +35,20 @@ public class LinkedList<T> {
         }
     }
 
+    public Node<T> reverse(Node<T> head){
+        Node<T> prev = null;
+        Node<T> current = head;
+        Node<T> next;
+
+        while(current!=null){
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+        return head;
+    }
 
 
 }
